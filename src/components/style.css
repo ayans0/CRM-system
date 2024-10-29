@@ -1,0 +1,315 @@
+.header {
+    width: 55%;
+    color: rgb(0, 0, 0);
+    margin: 0px auto;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+    background-color: rgba(0, 119, 255, 0.335);
+}
+
+.header h2 {
+    letter-spacing: 1px;
+}
+
+.header ul {
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.2s;
+}
+
+.welcome {
+    width: 60%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.welcome h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 35px;
+}
+
+.welcome hr {
+    margin: 10px 0;
+    height: 6px;
+    background-color: rgba(0, 119, 255, 0.335);
+    border: none;
+}
+
+.welcome p {
+    width: 50%;
+    font-size: 19px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.welcome button {
+    padding: 13px;
+    font-size: 17px;
+    border-radius: 6px;
+    background-color: rgba(0, 119, 255, 0.335);
+    border: 2px solid transparent;
+}
+
+.welcome button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.335);
+    border: 2px rgba(0, 119, 255, 0.335) solid;
+    transition: 0.2s;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: rgba(0, 119, 255, 0.335);
+}
+
+.submit-button {
+    padding: 13px;
+    font-size: 17px;
+    border-radius: 6px;
+    background-color: rgba(0, 119, 255, 0.335);
+    border: 2px solid transparent;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.335);
+    border: 2px rgba(0, 119, 255, 0.335) solid;
+    transition: 0.2s;
+}
+
+.customer-table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.customer-table th,
+.customer-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.customer-table th {
+    background-color: rgba(0, 119, 255, 0.335);
+    color: white;
+}
+
+.customers {
+    text-align: center;
+}
+
+.customers h2 {
+    margin-top: 30px;
+    font-size: 23px;
+}
+
+.customers button {
+    margin-top: 20px;
+    display: block;
+    background-color: rgba(0, 119, 255, 0.335);
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: rgba(0, 119, 255, 0.335);
+    border: 2px solid transparent;
+}
+
+.customers button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.335);
+    border: 2px rgba(0, 119, 255, 0.335) solid;
+    transition: 0.2s;
+}
+
+.h2_and_button {
+    margin: 0 auto;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-customer-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.add-customer-form h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.add-customer-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.add-customer-form input,
+.add-customer-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.add-button,
+.go-back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button {
+    background-color: rgba(0, 119, 255, 0.335);
+    color: white;
+    border: 2px transparent solid;
+}
+
+.add-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.335);
+    border: 2px rgba(0, 119, 255, 0.335) solid;
+    transition: 0.2s;
+}
+
+.go-back-button {
+    background-color: #ccc;
+    color: #333;
+}
+
+.go-back-button:hover {
+    background-color: #999;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+
+/* fortablet */
+
+@media only screen and (max-width: 1000px) {
+    .header {
+        width: 90%;
+        padding: 20px 30px;
+    }
+    .welcome p {
+        width: 90%;
+    }
+    .customer-table {
+        width: 90%;
+        border-collapse: collapse;
+        margin: 20px auto;
+    }
+    .h2_and_button {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+        padding: 10px 20px;
+        display: block;
+    }
+    .header h2 {
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .header ul {
+        width: 50%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+    .welcome p {
+        width: 100%;
+    }
+    .welcome {
+        width: 80%;
+        margin: 30px auto;
+    }
+    .customer-table {
+        width: 99%;
+        border-collapse: collapse;
+        margin: 30px auto;
+    }
+    .h2_and_button {
+        width: 60%;
+    }
+}
